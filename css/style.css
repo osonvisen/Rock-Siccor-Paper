@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+}
+.game-area,
+.game-progress {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+  padding: 5px;
+}
+.game-area {
+  flex-direction: row;
+}
+.images {
+  width: 100px;
+  background-color: black;
+  border-radius: 105px;
+  padding: 10px;
+}
+.results {
+  display: flex;
+  justify-content: center;
+}
+.result-user,
+.result-computer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game-progress {
+  flex-direction: row;
+  align-items: center;
+}
